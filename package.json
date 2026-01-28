@@ -4,7 +4,7 @@
   "description": "Ein Preset für folgende Projekte, mit der standart Ordnerstruktur für Webpack.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "npx webpack serve",
     "format": "npx prettier . --write"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Finn1962/Preset#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.28.6",
     "@eslint/js": "^9.39.2",
     "css-loader": "^7.1.2",
     "eslint": "^9.39.2",
